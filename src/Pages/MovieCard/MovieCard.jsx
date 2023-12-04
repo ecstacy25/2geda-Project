@@ -57,7 +57,7 @@ const MovieCard = () => {
             ))}
           </div>
           <div id='Fifa'>
-            <img className='img-fifa' src={fifa} alt='' />
+            <img className='img-fifa1' src={fifa} alt='' />
           </div>
           <div className='Movie'>
             <img

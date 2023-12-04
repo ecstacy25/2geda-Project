@@ -12,9 +12,9 @@ const App = () => {
   return (
     <div className="main-container">
       <Navbar />
-      {/* <MovieCard /> */}
+      <MovieCard />
       {/* <MovieDetails /> */}
-      <TvPreview />
+      {/* <TvPreview /> */}
       <div className="content">
       <Sidebar />
        
