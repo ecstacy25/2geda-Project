@@ -1,5 +1,5 @@
 import React from 'react';
-import './Thumbnail.css'; // Make sure to create and link your CSS file
+import './Thumbnail.css'; 
 import movie from "../../Assets/movie.png";
 
 const Thumbnail = ({ title }) => {
