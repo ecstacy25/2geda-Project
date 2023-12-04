@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./MovieCard.css";
+import "./TvDashboard.css";
 import fifa from "../../Assets/fifa.png";
 import movie from "../../Assets/movie.png";
 import movie1 from "../../Assets/movie1.png";
