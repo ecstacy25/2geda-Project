@@ -1,0 +1,80 @@
+@media screen and (max-width: 500px) {
+  .sidebar {
+    display: none;
+    width: 10px;
+    
+  }
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(79, 13, 163, 1);
+  color: rgb(156, 153, 153);
+  padding: 10px;
+  padding-top: 70px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  font-family: poppins;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(163, 159, 159);
+}
+
+.menu-item:hover {
+  color: #fff;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+.icon.home { background: url('../../Assets/House.png') center/contain no-repeat; }
+.icon.connect { background: url('../../Assets/connect.png') center/contain no-repeat; }
+.icon.commerce { background: url('../../Assets/commerce.png') center/contain no-repeat; }
+.icon.directory { background: url('../../Assets/business.png') center/contain no-repeat; }
+.icon.chat { background: url('../../Assets/chat.png') center/contain no-repeat; }
+.icon.profile { background: url('../../Assets/profiles.png') center/contain no-repeat; }
+.icon.tickets { background: url('../../Assets/tickets.png') center/contain no-repeat; }
+.icon.live { background: url('../../Assets/live.png') center/contain no-repeat; }
+.icon.stereo { background: url('../../Assets/stereo.png') center/contain no-repeat; }
+.icon.tv { background: url('../../Assets/tv.png') center/contain no-repeat; }
+.icon.voting { background: url('../../Assets/voting.png') center/contain no-repeat; }
+.icon.education { background: url('../../Assets/book.png') center/contain no-repeat; }
+.icon.signout { background: url('../../Assets/SignOut.png') center/contain no-repeat; padding-top: 50px; }
+
+
+.sidebar-icon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ffdd40;
+  }
+}
+  
+
+
+  

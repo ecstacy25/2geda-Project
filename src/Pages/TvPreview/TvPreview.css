@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(243, 238, 238);
+}
+.main {
+  width: 85%;
+  float: left;
+  padding: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: white;
+}
+#Fifa {
+  color: white;
+  height: 10%;
+
+  text-align: center;
+  align-items: center;
+  margin-top: 3px;
+  padding: 20px;
+}
+
+.img-fifa {
+  width: 65rem;
+  height: 8rem;
+}
+
+.frame4 {
+  width: 98%;
+}
+
+button {
+  background-color: rgba(79, 13, 163, 1);
+  color: white;
+  width: 8%;
+  height: 50%;
+  padding: 10px;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.form {
+  background-color: rgb(243, 238, 238);
+  font-family: poppins;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post {
+  position: relative;
+  left: 87%;
+  transform: translateY(-170%);
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testcard {
+    width: 100%;
+}
